@@ -17,6 +17,15 @@
 		4570AD2A2238769C00809A01 /* ExtrasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4570AD292238769C00809A01 /* ExtrasTest.swift */; };
 		45762A7E240D26B40018D344 /* TestStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45762A7D240D26B30018D344 /* TestStoryboard.storyboard */; };
 		45D268C9242A9F1D007EB41E /* SwiftUIContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D268C8242A9F1D007EB41E /* SwiftUIContentView.swift */; };
+		57139E5529AA5BD000FF3A7B /* OperationsListContextTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E4A29AA5BD000FF3A7B /* OperationsListContextTask.swift */; };
+		57139E5629AA5BD000FF3A7B /* OperationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E4B29AA5BD000FF3A7B /* OperationsListViewController.swift */; };
+		57139E5729AA5BD000FF3A7B /* OperationsListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E4C29AA5BD000FF3A7B /* OperationsListFactory.swift */; };
+		57139E5829AA5BD000FF3A7B /* OperationsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E4E29AA5BD000FF3A7B /* OperationsFeed.swift */; };
+		57139E5929AA5BD000FF3A7B /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E4F29AA5BD000FF3A7B /* Operation.swift */; };
+		57139E5A29AA5BD000FF3A7B /* OperationDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E5129AA5BD000FF3A7B /* OperationDestinations.swift */; };
+		57139E5B29AA5BD000FF3A7B /* OperationDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E5229AA5BD000FF3A7B /* OperationDetailsFactory.swift */; };
+		57139E5C29AA5BD000FF3A7B /* OperationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E5329AA5BD000FF3A7B /* OperationDetailsViewController.swift */; };
+		57139E5D29AA5BD000FF3A7B /* OperationDetailsContextTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57139E5429AA5BD000FF3A7B /* OperationDetailsContextTask.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* TabBar.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -192,6 +201,15 @@
 		4D016BC78C8FFDC66C0F661D /* RouteComposer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RouteComposer.podspec; path = ../RouteComposer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D5D44CE2FD3DEAA3108C874 /* Pods_RouteComposer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteComposer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		523DE209C4401E98B0605566 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57139E4A29AA5BD000FF3A7B /* OperationsListContextTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsListContextTask.swift; sourceTree = "<group>"; };
+		57139E4B29AA5BD000FF3A7B /* OperationsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsListViewController.swift; sourceTree = "<group>"; };
+		57139E4C29AA5BD000FF3A7B /* OperationsListFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsListFactory.swift; sourceTree = "<group>"; };
+		57139E4E29AA5BD000FF3A7B /* OperationsFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationsFeed.swift; sourceTree = "<group>"; };
+		57139E4F29AA5BD000FF3A7B /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		57139E5129AA5BD000FF3A7B /* OperationDestinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDestinations.swift; sourceTree = "<group>"; };
+		57139E5229AA5BD000FF3A7B /* OperationDetailsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDetailsFactory.swift; sourceTree = "<group>"; };
+		57139E5329AA5BD000FF3A7B /* OperationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDetailsViewController.swift; sourceTree = "<group>"; };
+		57139E5429AA5BD000FF3A7B /* OperationDetailsContextTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationDetailsContextTask.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RouteComposer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteComposer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -328,6 +346,46 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		57139E4829AA5BD000FF3A7B /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				57139E4929AA5BD000FF3A7B /* OperationsList */,
+				57139E4D29AA5BD000FF3A7B /* Model */,
+				57139E5029AA5BD000FF3A7B /* OperationDetails */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		57139E4929AA5BD000FF3A7B /* OperationsList */ = {
+			isa = PBXGroup;
+			children = (
+				57139E4A29AA5BD000FF3A7B /* OperationsListContextTask.swift */,
+				57139E4B29AA5BD000FF3A7B /* OperationsListViewController.swift */,
+				57139E4C29AA5BD000FF3A7B /* OperationsListFactory.swift */,
+			);
+			path = OperationsList;
+			sourceTree = "<group>";
+		};
+		57139E4D29AA5BD000FF3A7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57139E4E29AA5BD000FF3A7B /* OperationsFeed.swift */,
+				57139E4F29AA5BD000FF3A7B /* Operation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57139E5029AA5BD000FF3A7B /* OperationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				57139E5129AA5BD000FF3A7B /* OperationDestinations.swift */,
+				57139E5229AA5BD000FF3A7B /* OperationDetailsFactory.swift */,
+				57139E5329AA5BD000FF3A7B /* OperationDetailsViewController.swift */,
+				57139E5429AA5BD000FF3A7B /* OperationDetailsContextTask.swift */,
+			);
+			path = OperationDetails;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +414,7 @@
 		607FACD21AFB9204008FA782 /* Example for RouteComposer */ = {
 			isa = PBXGroup;
 			children = (
+				57139E4829AA5BD000FF3A7B /* Operations */,
 				8479E2F7200E7A7F00320380 /* Configuration */,
 				8479E2FB200E7A7F00320380 /* Extensions */,
 				8479E308200E7A7F00320380 /* URLTranslators */,
@@ -898,6 +957,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8479E30D200E7A7F00320380 /* ExampleConfiguration.swift in Sources */,
+				57139E5D29AA5BD000FF3A7B /* OperationDetailsContextTask.swift in Sources */,
 				8479E310200E7A7F00320380 /* UIColor.swift in Sources */,
 				8479E311200E7A7F00320380 /* ViewController.swift in Sources */,
 				8479E31A200E7A7F00320380 /* SquareViewController.swift in Sources */,
@@ -920,7 +980,9 @@
 				45D268C9242A9F1D007EB41E /* SwiftUIContentView.swift in Sources */,
 				9AFBCB1EA868F677EA54C083 /* ExampleAnalyticsSupport.swift in Sources */,
 				9AFBC466CF915E3C0F137958 /* ProductConfiguration.swift in Sources */,
+				57139E5929AA5BD000FF3A7B /* Operation.swift in Sources */,
 				9AFBC0ADE4D123DD36E06972 /* ProductViewController.swift in Sources */,
+				57139E5B29AA5BD000FF3A7B /* OperationDetailsFactory.swift in Sources */,
 				9AFBC22EF26E1F76942AC44D /* ProductURLTranslator.swift in Sources */,
 				9AFBC915C2F461136B5C1B0D /* SecondModalLevelViewController.swift in Sources */,
 				9AFBCA728DF14FD91F5AC570 /* StarViewController.swift in Sources */,
@@ -931,16 +993,21 @@
 				9AFBC91DEB7FCDC286B6AD17 /* WishListContextTask.swift in Sources */,
 				9AFBC543C6164B0233A6BB88 /* ImageFetcherImpl.swift in Sources */,
 				9AFBC71B05DD36CEA9519B11 /* ImageDetailsFetcherImpl.swift in Sources */,
+				57139E5529AA5BD000FF3A7B /* OperationsListContextTask.swift in Sources */,
 				9AFBCD815ADC0CDEC67CA6DB /* ImagesWithLibraryHandler.swift in Sources */,
 				9AFBC6A3A55CCF3FC18F1978 /* ImagesConfigurationWithLibrary.swift in Sources */,
 				9AFBC8F26FFD83B86954182F /* ImagesWithoutLibraryHandler.swift in Sources */,
+				57139E5A29AA5BD000FF3A7B /* OperationDestinations.swift in Sources */,
+				57139E5629AA5BD000FF3A7B /* OperationsListViewController.swift in Sources */,
 				9AFBC85A77E2623434CDC7B1 /* CustomContainerFactory.swift in Sources */,
 				9AFBC6DD79F2059D9547629A /* ImagesFactory.swift in Sources */,
 				9AFBC9C5E791E8BD9A19B381 /* ImageDetailsFactory.swift in Sources */,
 				9AFBC3F6DD37FCCE8C0BC6DD /* ImagesWithoutLibraryConfiguration.swift in Sources */,
+				57139E5C29AA5BD000FF3A7B /* OperationDetailsViewController.swift in Sources */,
 				9AFBC6940E3775878A0E3923 /* ExampleGenericContextTask.swift in Sources */,
 				9AFBCD01AB3423FA82D68DBA /* BlurredBackgroundTransitionController.swift in Sources */,
 				9AFBC8F0C0631FA73ACA2199 /* BlurredBackgroundPresentationController.swift in Sources */,
+				57139E5729AA5BD000FF3A7B /* OperationsListFactory.swift in Sources */,
 				9AFBCE57C0F8CE5FA2C71E57 /* BlurredBackgroundTransitionAnimator.swift in Sources */,
 				9AFBCE52F3DE5262483447AD /* AnalyticsRouterDecorator.swift in Sources */,
 				9AFBC4742A536B8AD7957A1A /* Router+Destination.swift in Sources */,
@@ -949,6 +1016,7 @@
 				D5A310CD7E9542D1EF59939B /* FailingRouter.swift in Sources */,
 				D5A31CA7E4C8CAF3B46E7237 /* InternalSearchConfiguration.swift in Sources */,
 				D5A3194B225BFB7A23A5D8BD /* MainScreenContext.swift in Sources */,
+				57139E5829AA5BD000FF3A7B /* OperationsFeed.swift in Sources */,
 				D5A31706A0F9584974C87674 /* HomeViewController.swift in Sources */,
 				D5A313A06ECE5A367A62E955 /* SettingsViewController.swift in Sources */,
 				D5A313472BCBDB5E4EB4189B /* AnyContextCheckingViewController.swift in Sources */,

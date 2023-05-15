@@ -18,8 +18,26 @@ class PromptViewController: UIViewController, ExampleAnalyticsSupport {
 
     let screenType = ExampleScreenTypes.welcome
 
-    @IBAction func goToHomeTapped() {
-        try? router.navigate(to: ConfigurationHolder.configuration.homeScreen, with: nil)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
     }
-
+    
+    @IBAction func operationDetails() {
+        try? router.navigate(to: .operationDetails, with: .init(operationId: "001"))
+    }
+    
+    @IBAction func operationsList() {
+        try? router.navigate(to: .operationList, with: .init(highlightedOperationId: "001", operationsCount: 20))
+    }
+    
+    @IBAction func operationDetailsOverOperationsList() {
+        try? router.navigate(to: .operationDetailsOverOperationList,
+                             with: OperationsFeed(highlightedOperationId: "001", operationsCount: 20))
+    }
+    
+    @IBAction func operationListInNavController() {
+        try? router.navigate(to: .operationListInNavigation,
+                             with: OperationsFeed(highlightedOperationId: "001", operationsCount: 20))
+    }
 }
